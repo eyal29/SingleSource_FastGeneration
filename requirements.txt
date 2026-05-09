@@ -1,0 +1,19 @@
+# === SinFusion (teacher) ===
+einops==0.6.0
+imageio==2.16.1
+matplotlib==3.5.1
+numpy==1.21.2
+Pillow==9.4.0
+pytorch_lightning==1.9.5
+torch==1.11.0
+torchvision==0.12.0
+tqdm==4.64.0
+
+# === Distillation GAN (étape 2 & 3) ===
+# Métriques d'évaluation
+scikit-image>=0.19.0       # SSIM, PSNR
+scipy>=1.7.0               # FID (stats)
+lpips>=0.1.4               # LPIPS perceptuel (base pour E-LatentLPIPS)
+
+# Utilitaires
+tensorboard>=2.8.0         # Logging

@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Données lourdes
+data/images/*
+data/videos/*
+!data/images/.gitkeep
+!data/videos/.gitkeep
+
+# Dataset ODE — régénérable depuis le teacher (ignoré pour toute image)
+outputs/*/*/ode_dataset/noise/*
+outputs/*/*/ode_dataset/images/*
+
+# Checkpoints — trackés via Git LFS (.gitattributes)
+*.ckpt
+!teacher_checkpoint/
+!teacher_checkpoint/*/
+!teacher_checkpoint/*/last.ckpt
+
+# Logs
+logs/
+lightning_logs/
+wandb/
+*.log
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

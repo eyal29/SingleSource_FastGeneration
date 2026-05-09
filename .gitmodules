@@ -1,0 +1,3 @@
+[submodule "sinfusion"]
+	path = sinfusion
+	url = https://github.com/yanivnik/sinfusion-code.git
