@@ -69,7 +69,7 @@ Ce projet combine deux articles pour créer un pipeline de génération **rapide
 ## Structure du projet
 
 ```
-Projet_GenAI/
+SingleSource_FastGeneration/
 ├── notebooks/                        # Templates (sans outputs — à lancer sur OVH)
 │   ├── 01_train_sinfusion_ovhcloud.ipynb
 │   ├── 02_build_ode_dataset.ipynb
@@ -109,8 +109,8 @@ Projet_GenAI/
 ### 1. Cloner le repo
 
 ```bash
-git clone --recurse-submodules https://github.com/eyal29/Projet_GenAI.git
-cd Projet_GenAI
+git clone --recurse-submodules https://github.com/eyal29/SingleSource_FastGeneration.git
+cd SingleSource_FastGeneration
 git lfs pull   # télécharger les checkpoints
 ```
 
